@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/landing_page.dart';
+import 'package:untitled/ui/landing_page.dart';
 
-class MulPituwa extends StatelessWidget {
-  const MulPituwa({super.key});
+class Projects extends StatelessWidget {
+  const Projects({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class MulPituwa extends StatelessWidget {
             child: Container(
               color: Colors.blue,
               child: Center(
-                child: Text("Mul Pituwa"),
+                child: Text("Projects"),
               ),
             ),
           ),

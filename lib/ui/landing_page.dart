@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/about_him.dart';
-import 'package:untitled/discussions.dart';
-import 'package:untitled/mul_pituwa.dart';
-import 'package:untitled/pojects.dart';
-import 'package:untitled/troubles.dart';
+import 'package:untitled/ui/about_him.dart';
+import 'package:untitled/ui/discussions.dart';
+import 'package:untitled/ui/mul_pituwa.dart';
+import 'package:untitled/ui/pojects.dart';
+import 'package:untitled/ui/troubles.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key, required this.title});

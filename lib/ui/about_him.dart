@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/landing_page.dart';
+import 'package:untitled/ui/landing_page.dart';
 
-class Troubles extends StatelessWidget {
-  const Troubles({super.key});
+class AboutHim extends StatelessWidget {
+  const AboutHim({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class Troubles extends StatelessWidget {
             child: Container(
               color: Colors.blue,
               child: Center(
-                child: Text("Troubles"),
+                child: Text("About Him"),
               ),
             ),
           ),
