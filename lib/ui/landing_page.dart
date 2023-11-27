@@ -51,63 +51,108 @@ class _MenuPageState extends State<LandingPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Color.fromARGB(255, 198, 75, 75),
         appBar: AppBar(
           backgroundColor: Colors.redAccent,
           title: Text("අනුරාධ ජයරත්න"),
-          actions: <Widget>[
-            // IconButton(
-            //   icon: Icon(Icons.home),
-            //   onPressed: () {
-            //     Navigator.of(context).push(
-            //       MaterialPageRoute(
-            //         builder: (context) => const LandingPage(),
-            //       ),
-            //     );
-            //   },
-            // ),
-          ],
+          actions: <Widget>[],
         ),
-        body: Column(
-          children: [
-            Expanded(
-              child: Container(
-                color: Colors.blue,
-                child: Center(
-                  child: Text("Row 1"),
-                ),
-              ),
-            ),
-            Expanded(
-              child: Container(
-                color: Colors.green,
-                child: Center(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8), // Border radius
-                    child: ClipOval(
-                        child: Image.network(
-                            'https://th.bing.com/th/id/OIP.PnpOR8SxnK9Wrxt2gV0dzgHaHa?rs=1&pid=ImgDetMain')),
-                  ),
-                ),
-              ),
-            ),
-            const Column(
-              children: <Widget>[
-                ButtonBar(
-                  alignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    // TextButton(
-                    //   onPressed: _showToast,
-                    //   child: const Text('TextButton'),
-                    // ),
-                    const TextButton(
-                      onPressed: null,
-                      child: Text('Call'),
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 70,
+                          color: Colors.blue,
+                          child: Center(
+                            child: Text("Row 1"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 70,
+                          color: Colors.blue,
+                          child: Center(
+                            child: Text("Row 2"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 70,
+                          color: Colors.blue,
+                          child: Center(
+                            child: Text("Row 3"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 70,
+                          color: Colors.blue,
+                          child: Center(
+                            child: Text("Row 4"),
+                          ),
+                        ),
+                      ),
                     ),
                   ],
                 ),
-              ],
-            ),
-          ],
+              ),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    // color: Colors.green,
+                    child: Center(
+                      // child: Padding(
+                      //   padding: const EdgeInsets.all(8), // Border radius
+                      //   child: ClipOval(
+                      child: Image.network(
+                          'https://th.bing.com/th/id/OIP.PnpOR8SxnK9Wrxt2gV0dzgHaHa?rs=1&pid=ImgDetMain'),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: const Column(
+                  children: <Widget>[
+                    ButtonBar(
+                      alignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        // TextButton(
+                        //   onPressed: _showToast,
+                        //   child: const Text('TextButton'),
+                        // ),
+                        const TextButton(
+                          onPressed: null,
+                          child: Text('Call'),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
 
         // body: Center(
