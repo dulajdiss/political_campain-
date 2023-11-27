@@ -15,38 +15,6 @@ class LandingPage extends StatefulWidget {
 }
 
 class _MenuPageState extends State<LandingPage> {
-  // int _selectedIndex = 0;
-  // static const TextStyle optionStyle =
-  // TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  // static const List<Widget> _widgetOptions = <Widget>[
-  //   Text(
-  //     'මුල් පිටුව1',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'ඔහු ගැන',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'ව්‍යාපෘති',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'සාකච්ඡා',
-  //     style: optionStyle,
-  //   ),
-  //   Text(
-  //     'ගැටලු',
-  //     style: optionStyle,
-  //   ),
-  // ];
-
-  // void _onItemTapped(int index) {
-  //   setState(() {
-  //     _selectedIndex = index;
-  //   });
-  // }
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
