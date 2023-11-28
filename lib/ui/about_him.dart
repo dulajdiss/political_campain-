@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/constant/constant.dart';
 import 'package:untitled/ui/landing_page.dart';
 
 class AboutHim extends StatelessWidget {
@@ -12,7 +13,7 @@ class AboutHim extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
-        title: Text("අනුරාධ ජයරත්න"),
+        title:const Text(name),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.menu),
