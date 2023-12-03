@@ -16,7 +16,7 @@ class AboutHim extends StatelessWidget {
         title:const Text(name),
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.menu),
+            icon:const Icon(Icons.menu),
             onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
