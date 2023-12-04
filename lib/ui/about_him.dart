@@ -35,7 +35,7 @@ class AboutHim extends StatelessWidget {
           Expanded(
             child: Container(
               color: Colors.blue,
-              child: Center(
+              child:const Center(
                 child: Text("About Him"),
               ),
             ),
