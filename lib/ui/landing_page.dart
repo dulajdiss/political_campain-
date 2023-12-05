@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/constant/constant.dart';
 import 'package:untitled/ui/about_him.dart';
 import 'package:untitled/ui/discussions.dart';
 import 'package:untitled/ui/mul_pituwa.dart';
@@ -22,7 +23,7 @@ class _MenuPageState extends State<LandingPage> {
         backgroundColor: Color.fromARGB(255, 198, 75, 75),
         appBar: AppBar(
           backgroundColor: Colors.redAccent,
-          title: Text("අනුරාධ ජයරත්න"),
+          title:const Text(name),
           actions: <Widget>[],
         ),
         body: Padding(
